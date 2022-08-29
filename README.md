@@ -38,3 +38,11 @@ Amazon은 내부 서비스 IP 대역으 주기적으로 변경한다. <br>
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/43159901/187221682-48ecba65-54c1-4e95-a4b7-9a8818739be6.png">
 
 
+
+
+# 활용 방안
+
+1. CloudFront ---> ALB (Waf 적용) 시 , Waf WhiteList에 CloudFront Ip Range를 등록하여 보안 향상
+2. CloudFront ---> ALB (Waf 적용X) 시, ALB Security Group Inbound에 등록하여 보아 향상 (추후 업데이트 예정)
+
+
