@@ -26,10 +26,13 @@ Amazon은 내부 서비스 IP 대역으 주기적으로 변경한다. <br>
 
 
 ## Step 2. Subscribe Topic (arn:aws:sns:us-east-1:806199016981:AmazonIpSpaceChanged)
-
+#### 주의점은 SNS Subscriptions 생성 시 us-east-1에서만 가능하다.
+#### Endpoint에 사용자의 Lambda ARN을 등록하여 사용자의 Region을 전송하게 설정하면 된다.
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/43159901/187223948-7300261e-ad70-4fa8-9380-b9da0e335605.png">
 
 ## Step 3. Run Lambda (Test Event) 
 
+#### E
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/43159901/187221682-48ecba65-54c1-4e95-a4b7-9a8818739be6.png">
 
 
