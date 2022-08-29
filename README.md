@@ -32,7 +32,9 @@ Amazon은 내부 서비스 IP 대역으 주기적으로 변경한다. <br>
 
 ## Step 3. Run Lambda (Test Event) 
 
-#### E
+#### test Event파일을 참고하여 Lambda 테스트 시 적용 확인 가능
+#### 첨부 자료의 파일로 테스트했을 시, 첫 번째 테스트에서는 md5 값 때문에 오류가 난다.
+#### 에러 메시지에서 md5 값을 테스트에 기입하여 재실행시 확인 가능
 <img width="1439" alt="image" src="https://user-images.githubusercontent.com/43159901/187221682-48ecba65-54c1-4e95-a4b7-9a8818739be6.png">
 
 
